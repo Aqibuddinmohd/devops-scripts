@@ -7,10 +7,10 @@ set -e
 # -------------------------------
 # Variables
 # -------------------------------
-BUCKET_NAME="reyaz-kops-testbkt786777.k8s.local"
-CLUSTER_NAME="reyaz.k8s.local"
-REGION="ap-south-1"
-ZONES="ap-south-1a,ap-south-1b"
+BUCKET_NAME="aqib-kops-testbck96.k8s.local"
+CLUSTER_NAME="aqaqaqaq.k8s.local"
+REGION="ap-south-2"
+ZONES="ap-south-2a,ap-south-2b"
 
 CONTROL_PLANE_SIZE="m7i-flex.large"
 NODE_SIZE="m7i-flex.large"
@@ -21,7 +21,7 @@ NODE_COUNT=2
 CONTROL_PLANE_VOLUME=40
 NODE_VOLUME=40
 
-AMI_ID="ami-0f918f7e67a3323f0"
+AMI_ID="ami-0231ae6fd930d4c38"
 
 # -------------------------------
 # Update PATH
