@@ -118,3 +118,8 @@ echo "Cluster Created Successfully"
 echo "========================================"
 
 kubectl get nodes
+
+
+
+
+export KOPS_STATE_STORE=s3://reyaz-kops-testbkt143333.k8s.local
